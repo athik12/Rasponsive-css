@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <style>
+        body{
+            max-width: 800px;
+            margin: auto;
+            border: 2px solid chocolate;
+        }
+        h1{
+            font-size: 10vw;
+        }
+        .big-image{
+            width: 100%;
+        }
+        .container-Two{
+            display: flex;
+        }
+        .split{
+            width: 50%;
+        }
+        .split img{
+            width: 100%;
+        }
+        .container{
+            display: grid;
+            grid-template-columns:  repeat(3,1fr);
+            gap: 10px;
+        }
+        .food{
+            border: 2px solid indianred;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        .food img{
+            width: 100%;
+        }
+        @media screen and (max-width:576px) {
+            .container-Two{
+                flex-direction: column-reverse;
+            }
+            .container-Two .split {
+            width: 100%;
+        }
+        .container{
+            grid-template-columns: repeat(1,1fr);
+        }
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>May Responsive Website</h1>
+    </section>
+    <section class="big-image">
+        <img src="images/maxresdefault.jpg" alt="">
+    </section>
+    <section>
+        <h2>Two Part</h2>
+        <div class="container-Two">
+            <div class="split">
+                <img src="images/helthe Food.jpg" alt="">
+            </div>
+                <div class="split">
+                    <img src="images/maxresdefault.jpg" alt="">
+                </div>
+        </div>
+    </section>
+    <section>
+        <h2>Multi Column</h2>
+        <div class="container">
+            <div class="food">
+                <img src="images/helthe Food.jpg" alt="">
+                <h2>item-1</h2>
+                <h4>price: 100</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nulla praesentium nesciunt assumenda. Dignissimos, fuga beatae fugit quia ab aliquid dolore cupiditate quas a aliquam.</p>
+                <button>Order Naw</button>
+            </div>
+            <div class="food">
+                <img src="images/helthe Food.jpg" alt="">
+                <h2>item-2</h2>
+                <h4>price: 200</h4>
+                <p>Consequuntur, dicta iusto. Quam corrupti dicta sint ut tempora commodi facere reiciendis dolorum, minima maiores ducimus nobis hic ullam rerum cupiditate consequuntur perspiciatis facilis esse?</p>
+                <button>Order Naw</button>
+            </div>
+            <div class="food">
+                <img src="images/helthe Food.jpg" alt="">
+                <h2>item-3</h2>
+                <h4>price: 300</h4>
+                <p>Eligendi, dolorum error mollitia repellendus quidem animi, aut id veritatis voluptatem excepturi ab quam voluptas blanditiis doloribus impedit harum suscipit laborum aperiam atque doloremque eos!</p>
+                <button>Order Naw</button>
+            </div>
+            <div class="food">
+                <img src="images/helthe Food.jpg" alt="">
+                <h2>item-4</h2>
+                <h4>price: 400</h4>
+                <p>Perferendis quas non minus obcaecati alias corrupti optio corporis voluptate minima, laboriosam blanditiis quaerat, voluptates, voluptatem possimus ipsam enim! Atque doloremque nihil autem sit praesentium.</p>
+                <button>Order Naw</button>
+            </div>
+            <div class="food">
+                <img src="images/helthe Food.jpg" alt="">
+                <h2>item-5</h2>
+                <h4>price: 500</h4>
+                <p>Quae reiciendis pariatur, ea beatae alias quidem eos, porro quod cupiditate ipsa veritatis accusamus tempora recusandae. Quis tempore, repellat inventore repudiandae fugiat alias quia iste!</p>
+                <button>Order Naw</button>
+            </div>
+            <div class="food">
+                <img src="images/helthe Food.jpg" alt="">
+                <h2>item-6</h2>
+                <h4>price: 600</h4>
+                <p>Consectetur, vitae dicta? Rem voluptatum atque laboriosam quibusdam accusantium eaque quia sit consectetur natus aperiam perferendis, necessitatibus dolorum eveniet iste veniam molestiae voluptatibus possimus sint.</p>
+                <button>Order Naw</button>
+            </div>
+            <div class="food">
+                <img src="images/helthe Food.jpg" alt="">
+                <h2>item-7</h2>
+                <h4>price: 700</h4>
+                <p>Quas suscipit itaque eveniet officiis repellat, mollitia quos nisi assumenda sed aspernatur eaque similique quia exercitationem a tenetur dolorum deserunt quibusdam et omnis quisquam? Provident.</p>
+                <button>Order Naw</button>
+            </div>
+            <div class="food">
+                <img src="images/helthe Food.jpg" alt="">
+                <h2>item-8</h2>
+                <h4>price: 800</h4>
+                <p>Impedit rerum reiciendis adipisci blanditiis fugit illum unde magnam quam non! Asperiores, rerum veritatis dignissimos pariatur vel nesciunt, corporis quam aliquam nemo suscipit, reprehenderit delectus.</p>
+                <button>Order Naw</button>
+            </div>
+            <div class="food">
+                <img src="images/helthe Food.jpg" alt="">
+                <h2>item-9</h2>
+                <h4>price: 900</h4>
+                <p>Iusto suscipit vitae cumque in molestias tenetur alias, inventore illo itaque totam quae, unde dignissimos sunt asperiores reiciendis facilis dolorum quasi soluta. Nisi, possimus eius.</p>
+                <button>Order Naw</button>
+            </div>
+            <div class="food">
+                <img src="images/helthe Food.jpg" alt="">
+                <h2>item-10</h2>
+                <h4>price: 1000</h4>
+                <p>Eligendi voluptas ab quis inventore delectus, vero ea aliquam perferendis. Ut quae natus, delectus atque sint cupiditate rem facere. Ratione dolorum consequatur numquam inventore temporibus!</p>
+                <button>Order Naw</button>
+            </div>
+            <div class="food">
+                <img src="images/helthe Food.jpg" alt="">
+                <h2>item-11</h2>
+                <h4>price: 1100</h4>
+                <p>Nihil iusto suscipit possimus commodi earum nulla, aspernatur inventore quae eveniet consequuntur quas nobis beatae est animi reiciendis asperiores non laborum quis recusandae a ratione!</p>
+                <button>Order Naw</button>
+            </div>
+            <div class="food">
+                <img src="images/helthe Food.jpg" alt="">
+                <h2>item-12</h2>
+                <h4>price: 1200</h4>
+                <p>Rerum, eveniet? Facilis beatae illum, modi ducimus eum odio nihil aspernatur nesciunt amet dolorem fugiat quisquam laboriosam eos maxime impedit nisi maiores inventore aut saepe.</p>
+                <button>Order Naw</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
